@@ -295,6 +295,7 @@ background: linear-gradient(90deg, rgba(249,246,241,1) 0%, rgba(249,246,241,1) 5
     width: 277px;
     height: 236px;
     text-align: right;
+    flex-wrap: wrap;
 }
 
 .dress__item--grey {
@@ -347,6 +348,9 @@ background: linear-gradient(90deg, rgba(249,246,241,1) 0%, rgba(249,246,241,1) 5
         width: auto;
         padding:0 30px;
     }
+    .dress__item {
+        width: 25%;
+    }
 }
 
 @media (max-width:992px){
@@ -394,6 +398,9 @@ background: linear-gradient(90deg, rgba(249,246,241,1) 0%, rgba(249,246,241,1) 5
         order: -1;
         text-align: right;
     }
+    .dress__item {
+        width: 33%;
+    }
 }
 
 @media (max-width:600px){
@@ -416,6 +423,15 @@ background: linear-gradient(90deg, rgba(249,246,241,1) 0%, rgba(249,246,241,1) 5
     }
     .catalog{
         justify-content: center;
+    }
+    .dress__item {
+        width: 25%;
+    }
+}
+
+@media (max-width:320px){
+    .dress__item{
+        width: 25%;
     }
 }
 
